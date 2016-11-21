@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>VanclDemo2</title>
+<meta name="viewport" content="width=device-width" initial-scale='1.0'>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="vancss.css" rel="stylesheet">
+<script src="jquery/jquery-1.7.1.min.js" ></script>
+
+<script data-main="main" src="js/require.js"></script>	
+
+</script>
+</head>
+<body>
+  <div id="head" class="vanclHead">
+  	 <div id="headerTopArea" class="headerTopAreaBox">
+  	   <div class="headerTopArea">
+  	 	<div class="headerTop">
+  	 	  <div class="headerTopRight" style="width:126px;" >
+            <div class="active" id="vanclCustomer"><a class="mapDropTitle" href="//catalog.vancl.com/zhuanti/tg_20100510.html" target="_blank">网站公告</a></div>
+
+  	 	  	<div class="payattention">
+  	 	  	  <em></em>
+  	 	  	  <a href="javascript:void()0;" class="vweixinbox">
+  	 	  	    <span class="vweixin" style="background: url(vanimg/w1.jpg) no-repeat left 3px;"></span>
+  	 	  	    <b class="vweixinTip"></b>
+  	 	  	  </a>
+  	 	  	  <a href="//e.weibo.com/vancl" class="track vanclweibo" name="hp-hp-head-weibo-v:n" target="_blank" 
+  	 	  	       style="background: url(vanimg/w2.jpg) no-repeat left 3px;"></a>  
+  	 	  	</div>
+  	 	  </div>
+  	 	  <div class="headerTopLeft">
+  	 	     <div id ="welcome" class="top loginArea">
+  	 	      您好，
+  	 	      <span class="top">欢迎光临凡客诚品 &nbsp;</span>
+  	 	      <span>
+  	 	      	<a href="">登录</a>
+  	 	      	<a href="">注册</a>
+  	 	      </span>
+  	 	     </div>
+  	 	     <div class="recommendArea">
+  	 	        <a href="">我的订单</a>
+  	 	     	
+  	 	     </div>
+  	 	</div>
+  	 	<span class="blank0"></span>
+  	   </div>
+      </div>
+     </div>
+
+     <div id="logoArea" class="vanclLogoSearch">
+      <div class="vanclLogo fl">
+      	<h1>
+      		<a href="" name="hp-hp-head-logo-v:n" class="track">凡客</a>
+      	</h1>
+      </div>
+      <div class="vanclSearch fr">
+      	<div class="searchTab">
+      	  <div class="search fl">
+      	  	 <input type="text" class="Enter fl" name="k" id="skey" placeholder="搜T恤，体验与众不同">
+      	  	 <input type="button" class=" btn" id="btnHeaderSearch" onfocus="this.blur()">
+      	  </div>
+      	  <div class="buycar fr active" id="shoppingCarNone">
+      	  	<p>
+      	  	 <a href="" class="shopborder track cartab" id="shoppingcar_link" rel="nofollow">
+      	  	 	购物车
+      	  	 	<span car_product_total="shoppingCar_product_totalcount">0</span> )
+      	  	 </a>
+      	  	 <s></s>
+      	  	</p>
+      	  	<div class="bottomlines"></div>
+      	  	<div class="BuycarTab shopDropList">
+      	  	  <div class="shopnopru">
+      	  	     <div class="SCtotalpageno">您的购物车中没有任何商品<div class="SCtotalpageBottom"></div></div>
+      	  	       <div class="SCtotalpageBottom"></div>
+      	  	  </div>
+      	  	 
+      	  	</div>
+      	   </div>
+      	  </div>
+      	<div class="hotWord">
+      	  <p>
+      	  	"热门搜索："
+      	  	<a name="hp-hp-classhotsearch-1_1-v:n" class="track" href="//s.vancl.com/search?k=T%E6%81%A4&amp;orig=3" target="_blank">T恤</a>
+      	  	<a name="hp-hp-classhotsearch-1_2-v:n" class="track" href="//s.vancl.com/search?k=%E5%BC%A0%E7%88%B1%E7%8E%B2&amp;orig=3" target="_blank">雨声潺潺</a>
+      	  	<a name="hp-hp-classhotsearch-1_3-v:n" class="track" href="//s.vancl.com/search?k=%E7%A9%86%E6%97%A6&amp;orig=3" target="_blank">穆旦</a>
+      	  	<a name="hp-hp-classhotsearch-1_4-v:n" class="track" href="//s.vancl.com/search?k=%E9%A9%AC%E5%B0%94%E5%85%8B%E6%96%AF&amp;orig=3" target="_blank">只有上帝</a>
+      	  	<a name="hp-hp-classhotsearch-1_5-v:n" class="track" href="//s.vancl.com/search?k=%E5%B8%86%E5%B8%83%E9%9E%8B&amp;orig=3" target="_blank">帆布鞋</a>
+      	  	<a name="hp-hp-classhotsearch-1_6-v:n" class="track" href="//s.vancl.com/p1.html?k=%E8%A1%AC%E8%A1%AB" target="_blank">衬衫</a>
+      	  </p>
+       </div>	  
+      </div>
+     </div>
+
+    <div id="mainNavBox" class="vanclNav  vanclsubnav">
+      <div class="allProduct  fl">
+      	 <a href="">首页</a>
+      	 <span class="NavLine"></span>
+      </div>
+      <div id="V_Category">
+      	<div class="vanclNavList">
+      	   <ul class="fr">
+      	   	 <li class="item itempic"><a href="" class="track" name="hp-hp-head-nav_1-v:n">衬衫</a>
+      	   	    <span class="NavLine"></span>
+      	   	 </li>
+      	   	 	 <li class="item itempic"><a href="" class="track" name="hp-hp-head-nav_1-v:n">T恤</a>
+      	   	    <span class="NavLine"></span>
+      	   	 </li>	 <li class="item itempic"><a href="" class="track" name="hp-hp-head-nav_1-v:n">外套</a>
+      	   	    <span class="NavLine"></span>
+      	   	 </li>
+      	   	 	 <li class="item itempic"><a href="" class="track" name="hp-hp-head-nav_1-v:n">麻</a>
+      	   	    <span class="NavLine"></span>
+      	   	 </li>
+      	   	 	 <li class="item itempic"><a href="" class="track" name="hp-hp-head-nav_1-v:n">裤装</a>
+      	   	    <span class="NavLine"></span>
+      	   	 </li>
+      	   	 	 <li class="item itempic"><a href="" class="track" name="hp-hp-head-nav_1-v:n">鞋</a>
+      	   	    <span class="NavLine"></span>
+      	   	 </li>
+      	   	 	 <li class="item itempic"><a href="" class="track" name="hp-hp-head-nav_1-v:n">袜品</a>
+      	   	    <span class="NavLine"></span>
+      	   	 </li>
+      	   	 	 <li class="item itempic"><a href="" class="track" name="hp-hp-head-nav_1-v:n">Nautilus</a>
+      	   	    <span class="NavLine"></span>
+      	   	 </li>
+      	   	 	
+      	   </ul>
+       </div> 
+      </div>
+    </div>
+    </div>
+
+  <div class="danpinBox">
+    <a name="top"></a>
+    <span class="blank10"></span>
+    <div class="breadNav">
+    	<a href="">首页</a>
+    	<span>></span>
+    	<a href="">首页</a>
+    	<span>></span>
+    	<a href="">首页</a>
+    	<span>></span>
+    	<a href="">首页</a>
+    	<span>></span>
+        <input id="mainCategories" type="hidden" value="27531,27544,28806">
+    	<a href="">凡客衬衫 吉国武 免烫 温莎领 2.0</a>  	
+    </div>
+    <span class="blank0"></span>
+
+  	<div class="danpinArea">
+  	    <div id="ProductTitleShow" class="danpinTitleTab newclear">
+  	  	 <div id="producTitle">
+  	  	 	<div class= "brandNumArea">
+  	  	 		<span id="productcode">商品编号：6358709</span>
+  	  	 	</div>
+  	  	     <h2 title="凡客衬衫 吉国武 免烫 温莎领 2.0 黑色小方格">
+        凡客衬衫 吉国武 免烫 温莎领 2.0 黑色小方格</h2>
+             <ul class="ProductSubnav fr" id="ItemTag">
+             	<li >
+             		<a href="#zhinan">购买指南</a>|
+             	</li>
+             	<li>
+             		<a href="#modal">模特</a>|
+             	</li>
+             	<li>
+             		<a href="#banXin">版型工艺</a>|
+             	</li>
+             	<li>
+             		<a href="#design">设计细节</a>|
+             	</li>
+             	<li>
+             		<a href="#wash">洗涤保养</a>|
+             	</li>
+             	
+             </ul>
+  	  	 </div>
+  	    </div>
+  		<span class="blank30"></span>
+  		<div class="blank0"></div>
+
+  		<div class="danpin_colLef">
+  			<div class="danpinLeft">
+  				<div class="smallImg">
+  				
+  					<ul class="imageMenu">
+  						<li id="left_item01" style="background-image:url(vanimg/0_left.jpg) ; background-position:0px -0px">
+  						
+  						</li>
+  						<li id="left_item02"  class="track"  style="background-image:url(vanimg/0_left.jpg) ; background-position:0px -68px">
+  						
+  						</li>
+  				
+  					
+  						
+  					</ul>
+  					<div class="smallImgDown downHover"></div>
+  				</div>
+  			</div>
+         <!--放大镜组件-->
+            <div class="danpinColCenter">
+            	<div class="bigImg" id="vertical">
+            		<img src="vanimg/0_1small.jpg">
+            		<div id="winSelector" > </div>             
+            	</div>
+              <div class="big_zoom"></div>
+            </div>
+  		</div>
+  	
+  		<div id="danpinRight" class="danpinRight" class="danpinRight">
+            <div class="cuxiaoPrice">
+           	  	   <span class="tehuiMoney">
+           	  	 	<span>售价：</span>
+           	  	 	<span>￥ <strong>349.00</strong></span>
+           	  	   </span>
+           	  	   <a href="">点击充值</a>
+           	</div>
+            <div class="form">
+              <dl>
+                <dt>
+              	   颜色：
+              	</dt> 
+              	<dd class="color"> 
+              	  <ul>
+              	  	<li class="active" > <span class="img"></span><p>蓝色</p></li>
+              	    <li  > <span class="img"></span><p>粉红</p></li>
+              	   
+
+              	  </ul>
+              
+              	</dd>
+              	<dt>
+              		尺码：
+              	</dt> 
+              	<dd class="size">
+              	<ul> 
+                 <li><p>S</p></li>
+                 <li><p>M</p></li>
+                 <li><p>L</p></li>
+                 <li><p>XL</p></li>
+                 <li><p>XXL</p></li>
+                </ul>
+              	</dd>
+
+              	<dt>数量:</dt>
+              	<dd>
+              		<select> 
+              			<option>1</option>
+              			<option>2</option>
+              			<option>3</option>
+              			<option>4</option>
+              			<option>5</option>
+              			<option>6</option>
+              			<option>7</option>
+              			<option>8</option>
+              			<option>9</option>
+              			<option>10</option>
+              			
+
+              		</select>
+              	</dd>
+              	<dt>已选:</dt>
+              	<dd class="state"><span>蓝色条纹</span> <span style="display:none">S </span><span>现在有货</span></dd>
+              </dl>	
+            </div>
+
+  		    <div class="danpinfixedtitle">
+  		    <a class="button" href="">
+  		    	<span>点击购买</span>
+  		    </a>
+
+  		   	<a class="button" href="">
+  		    	<span>加入购物车</span>
+  		    </a>
+  		   	 
+  		    </div>
+  		 
+         
+  		</div>
+  	</div>
+  </div>
+ 
+  <div class="blank0"></div>
+  <div class="blank0" style="height:32px;"></div>
+  
+  <div class="sideBarSettabArea">
+
+      <div class ="hideTitle">      
+      <h2 title="凡客衬衫 吉国武 免烫 温莎领 2.0 黑色小方格">
+        凡客衬衫 吉国武 免烫 温莎领 2.0 黑色小方格</h2>
+      <ul class="ProductSubnav fr navigation" id="ItemTag">
+              <li>
+                <a  href="#zhinan">购买指南</a>|
+              </li>
+              <li>
+                <a href="#modol">模特</a>|
+              </li>
+              <li>
+                <a href="#banXin">版型工艺</a>|
+              </li>
+              <li>
+                <a href="#design">设计</a>|
+              </li>
+              <li>
+                <a href="#wash">洗涤</a>|
+              </li>
+              
+             </ul>
+      <div class="AddtoCar fr">
+      <a href="#ProductTitleHide" class="cartab" id="hidCartab"></a>
+   
+     </div>       
+  </div>
+    <div class="itemtagcontentpart">
+       <table align="center" border="0" cellpadding="0" cellspacing="0" id='zhinan' class="item">
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/01.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+        <table>
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/02.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+       <table align="center" border="0" cellpadding="0" cellspacing="0">
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/03.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+        <table>
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/04.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+       <table align="center" border="0" cellpadding="0" cellspacing="0">
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/05.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+        <table>
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/06.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+       <table align="center" border="0" cellpadding="0" cellspacing="0" id="modol" class="item">
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/07.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+        <table>
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/08.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+       <table align="center" border="0" cellpadding="0" cellspacing="0">
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/09.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+
+        <table align="center" border="0" cellpadding="0" cellspacing="0" id="banXin" class="item">
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/10.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+       <table align="center" border="0" cellpadding="0" cellspacing="0">
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/11.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+        <table>
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/12.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+       <table align="center" border="0" cellpadding="0" cellspacing="0">
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/13.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+        <table>
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/14.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" id="design" class="item">
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/15.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+        <table>
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/16.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+       <table align="center" border="0" cellpadding="0" cellspacing="0">
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/17.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+
+        <table align="center" border="0" cellpadding="0" cellspacing="0" id="wash" class="item">
+       	 <tbody>
+       	   <tr>
+       	   	  <td><img src="bigImg/18.jpg"></td>
+       	   </tr>
+       	 </tbody>
+       </table>
+    </div>
+    <div class="productPinglun ">
+       <div class="titlePro">
+       	 <div><h3 style="font-weight:bolder">产品属性：（点击属性可查看同类商品）</h3></div>
+         <div class="titleDown" style="background-color:#eee"><span>风格：</span><a>商务</a></div>
+       </div>
+       <div>
+    	 <div class="leftPro">
+    	    <h2 class="hotTitle" style="position: static; top: 0px; left: 0px; height: 40px;
+                                    line-height: 40px; padding: 0px 0px 0px 25px; border-bottom: 1px solid #b4b4b4;">
+                                    推荐产品</h2>
+    	 	<ul>
+    	 		<li><a href=""><img src="vanimg/t.jpg"> </a>
+    	 		    <h3><a href="">凡客休闲裤 松紧腰短裤 男款 深海蓝</a></h3>
+    	 			<p><em>售价￥168</em></p>
+    	 		</li>
+    	 		<li><a href=""><img src=""> </a>
+    	 		    <h3><a href<li><a href=""><img src="vanimg/small.jpg"> </a>
+    	 		    <h3><a href="">凡客休闲裤 松紧腰短裤 男款 深海蓝</a></h3>
+    	 			<p><em>售价￥168</em></p>
+    	 		</li>
+    	 	
+    	 	  
+    	 	  <li><a href=""><img src="vanimg/t.jpg"> </a>
+    	 		    <h3><a href="">凡客休闲裤 松紧腰短裤 男款 深海蓝</a></h3>
+    	 			<p><em>售价￥168</em></p>
+    	 		</li>
+    	 
+    	 	  
+    	 	  
+    	 		
+    	 	</ul>
+    	 </div> 
+
+    	 <div class="rightPro">
+
+    	 	<div class="comments">
+    	 		<div class="titleComments">
+    	 			  <ul>
+                        <li><p style="font-weight:bolder">最新评论（<span>10</span>）</p></li>
+                        <li><input type="radio" name="choose">
+                            <label>全部评论</label>
+                        </li>
+                        <li><input type="radio" name="choose">
+                            <label>图片</label></li>
+                        <li><a href=""><span style="line-height: 25px;">我要评论</span></a></li>
+    	 		    </ul>
+    	 		</div>
+    	 		<div class="contentComments">
+    	 		 <div class="leftComments">
+    	 			<ul class="ul">
+    	 				<li><p>东西很好</p></li>
+    	 				<li><p>2016-09-25</p></li>
+    	 			</ul>
+    	 			
+    	 			<ul class="ur">
+    	 				<li><span>颜色：蓝底细白条纹</span></li>
+    	 				<li><span>尺码：M</span></li>
+    	 				<li><span>身高:0cm</span></li>
+    	 				<li><span>体重0.0kg</span></li>
+    	 				<li><span><尺码合适></span></li>	
+    	 			</ul>
+    	 		</div>
+    	 		<div class="rightComments">
+    	 			<p>kanse***</p>
+    	 			<p><img src=""></p>
+    	 		</div>
+    	 		</div>
+
+    	 		<div class="contentComments">
+    	 		 <div class="leftComments">
+    	 			<ul class="ul">
+    	 				<li><p>东西很好</p></li>
+    	 				<li><p>2016-09-25</p></li>
+    	 			</ul>
+    	 			
+    	 			<ul class="ur">
+    	 				<li><span>颜色：蓝底细白条纹</span></li>
+    	 				<li><span>尺码：M</span></li>
+    	 				<li><span>身高:0cm</span></li>
+    	 				<li><span>体重0.0kg</span></li>
+    	 				<li><span><尺码合适></span></li>	
+    	 			</ul>
+    	 		</div>
+    	 		<div class="rightComments">
+    	 			<p>kanse***</p>
+    	 			<p><img src=""></p>
+    	 		</div>
+    	 		</div>
+
+    	 				
+
+    	 	</div>
+
+    	 	<div class="question">
+    	 		<div class="titleQuestion">
+    	 		    <ul>
+                        <li><p style="font-weight:bolder">最新提问（共<span>27</span>条）</p></li>
+                        <li><a href=""><span style="line-height: 25px;">我要提问</span></a></li>
+    	 		    </ul>
+    	 			
+    	 			
+    	 		</div>
+    	 		<div>
+    	 			<div class="Q">
+    	 			  <p><span><img src=""></span>185***:  </p>
+    	 			  <p>这个和2.0版比起来 下摆围尺寸数据有吗</p>
+
+    	 			  <p><span>2016-09-24</span><span>我要回复（0）</span> </p>
+    	 			</div>
+    	 			<div class="A">
+    	 				<span><img src=""></span>
+    	 			   <p>亲爱的客户您好，经查询，您咨询的内容暂无相关信息，请您后续关注网页更新，如您已订购成功，请以收到的实物为准，给您带来的不便请您谅解，感谢您的支持！祝您购物愉快！O(∩_∩)O</p>
+    	 			</div>
+    	 		</div>
+    	 	</div>
+
+    	 </div>
+       </div>
+    </div>  
+
+    	
+    </div>
+
+  </div>
+
+  <div class="vanclFoot" style="margin-top:0px;">
+  	<div class="vanclCustomer publicfooterclear">
+  	  <ul>
+
+  	  	<li>
+  	  	  <a href="" target="_blank"></a>
+  	  	   <p class="onlineCustomer">
+  	  	    <img src="vanimg/online.png" style="width:auto; height:auto; ">
+  	  	   </p>
+  	  	   <p class="onlineTime">7x9小时在线客服
+  	  	   </p>
+  	  	</li>
+
+  	  	<li>
+  	  	  <a href="" target="_blank"></a>
+  	  	   <p class="seven">
+  	  	    <img src="vanimg/seven.png" style="width:auto; height:auto; ">
+  	  	   </p>
+  	  	   <p >7天内退货</p>
+  	  	   <p > 购物满199元免运费</p>
+  	  	   
+  	  	</li>
+
+  	     <li class="twocode">
+  	  	  <a href="" target="_blank"></a>
+  	  	   <p class="seven">
+  	  	    <img src="vanimg/weixin.png" style="width:105px; height:105px; ">
+  	  	   </p>
+  	  	   <p >扫描下载<em>凡客</em>客户端</p>
+  	  		  	   
+  	  	</li>
+  	  </ul>
+  	</div>
+
+  	<div class="vanclOthers publicfooterclear">
+  		<ul>
+  			<li><a href="">关于凡客</a></li>
+  			<li><a href="">新手指南</a></li>
+  			<li><a href="">配送范围及时间</a></li>
+  			<li><a href="">支付方式</a></li>
+  			<li><a href="">售后服务</a></li>
+  			<li><a href="">帮助中心</a></li>
+  		</ul>
+  	</div>
+
+  </div> 
+ <div id="footerArea" class="">
+   <div class="footBottom">
+   	  <div class="footBottomTab">
+   	  	<p>
+   	  	 Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号
+   	  	</p>
+   	  	<p> 凡客诚品（北京）科技有限公司</p>
+   	  </div>
+
+   </div>
+   
+   <div class="subFooter">
+    
+   	 <a rel="nofollow" href="https://search.szfw.org/cert/l/CX20111229001302001330" class="redLogo" target="_blank"></a>
+   	 <span class="costumeOrg"></span>
+   	 <a rel="nofollow" href="//www.315online.com.cn/member/315090053.html" class="wsjyBzzx" target="_blank"></a>
+   	 <a rel="nofollow" href="//www.hd315.gov.cn/beian/view.asp?bianhao=010202010081900017" class="vanclMsg" target="_blank"></a>
+   	 <a class="vanclqingNian" target="_blank" href="//www.vancl.com/help/about_2.htm" rel="nofollow"></a>
+  
+   </div>
+ 	
+ </div>
+</body>
+</html>
