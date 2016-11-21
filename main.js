@@ -1,6 +1,6 @@
  require.config({
             paths : {
-                "jquery" : "jquery/jquery-1.7.1.min.js",
+                "jquery" : "jquery/jquery-1.7.1.min",
                 "zoom":"js/zoom" ,
                 "list_delegate":"js/list_delegate",
                 "navigate":"js/navigate"
