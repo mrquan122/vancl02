@@ -1,6 +1,6 @@
  require.config({
             paths : {
-                "jquery" : ["http://libs.baidu.com/jquery/2.0.3/jquery","jquery/jquery-1.7.1.min.js"],
+                "jquery" : "jquery/jquery-1.7.1.min.js",
                 "zoom":"js/zoom" ,
                 "list_delegate":"js/list_delegate",
                 "navigate":"js/navigate"
